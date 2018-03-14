@@ -1,2 +1,2 @@
-# CarlSome.github.io
-My first time to try to set up a personal page.
+# Carl's Pages(carlsome.github.io)
+ (carl.github.io)
