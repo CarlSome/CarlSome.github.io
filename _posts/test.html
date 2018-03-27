@@ -1,0 +1,72 @@
+<html>
+<head>
+<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″>
+<title>页面代码高亮显示</title>
+<link rel=”stylesheet” href=”/js/highlight/styles/default.css”>
+<script src=”/js/highlight/highlight.pack.js”></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+<h1>页面代码高亮显示</h1>
+<h2>
+<a href=”https://highlightjs.org/download/” target=”_blank”>1·    Highlight.js 下载地址</a><br/>
+<a href=”https://highlightjs.org/usage/” target=”_blank”>2·    Highlight.js 在线文档</a><br/>
+<a href=”http://highlightjs.readthedocs.org/en/latest/css-classes-reference.html” target=”_blank”>3·    Highlight.js class类别对应表</a><br/>
+</h2>
+<h3>引用插件包所支持的语言类型:</h3>
+<img src=”/image/highlight.png” alt=”引用插件包所支持的语言类型”/>
+<br/>
+<h3>JSON 数据格式:</h3>
+<pre><code class=”json”>
+{
+“action”:”DescribeInstancesResponse”,
+“instance_set”:[
+{
+“vcpus_current”:1,
+“instance_id”:”i-ogbndull”,
+“volume_ids”:[
+“vol-g7xy7d6g”,
+“vol-jg7326gy”
+],
+“vxnets”:[
+{
+“vxnet_name”:”primary vxnet”,
+“vxnet_type”:1,
+“vxnet_id”:”vxnet-0″,
+“nic_id”:”52:54:ef:0c:ed:66″,
+“private_ip”:”10.50.13.54″
+}
+]
+}
+</code>
+<h3>css 数据格式:</h3>
+<code class=”css”>
+.hidden{ display:hidden ;}
+</code>
+<h3>php 数据格式:</h3>
+<code class=”php”>
+for($i = 0 ; $i<10 ; $i++){
+echo “hello world!” ;
+}
+</code>
+<h3>SQL 数据格式:</h3>
+<code class=”sql”>
+select * from test where t_id = 1;
+</code>
+<h3>http 协议:</h3>
+<code class=”http”>
+
+https://api.qingcloud.com/iaas/?action=RunInstances
+
+&vxnets.1=vxnet-0
+&instance_type=small_a
+&image_id=centos63x64
+&COMMON_PARAMS
+</code>
+<h3>代码禁止高亮:</h3>
+<code class=”nohighlight”>
+select * from test where t_id = 2;
+</code>
+</body>
+</html>
