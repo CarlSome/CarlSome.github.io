@@ -67,3 +67,6 @@ markdown: kramdown
 kramdown:
   input: GFM
   highlight: true
+
+#decoding
+encoding: utf-8
