@@ -3,7 +3,7 @@ title: Homework1
 layout: post
 ---
 <div id="wmd-preview" class="wmd-preview"><div class="md-section-divider"></div><div class="md-section-divider"></div><h1 data-anchor-id="yh63" id="unity-3d-homework1">Unity 3D Homework1</h1><p data-anchor-id="94nu"><code>Unity</code> <code>Homework</code> <code>潘茂林</code></p><a href="https://github.com/CarlSome/Unity3D/tree/master/Tic-Tac-Toe">Github链接</a><hr><div class="md-section-divider"></div>
-<h2 data-anchor-id="23vo" id="1简答题">1、简答题</h2><ul data-anchor-id="4dsi">
+<h3 data-anchor-id="23vo" id="1简答题">1、简答题</h3><ul data-anchor-id="4dsi">
 <li><p>解释游戏对象（GameObjects）和资源（Assets）的区别与联系。 <br>
  区别：游戏对象指的是我们在游戏中创建的且可以在设计界面中直接操作的物体，而资源更多指的是从外部引入的3D模型、音频文件、图片等。 <br>
  联系：同一个资源以使用在不同的游戏对象上，作为对象的属性。  </p></li>
@@ -128,16 +128,16 @@ foreach (Transform child in transform) {
     }
 }
 	</code></pre></ul>
-<hr><div class="md-section-divider"></div><h3 data-anchor-id="7g3o" id="2编程实践小游戏井字棋">2、编程实践：小游戏——井字棋</h3><div class="md-section-divider"></div><h3 data-anchor-id="xnfm" id="需求分析">需求分析:</h3><ul data-anchor-id="cg2l">
+<hr><div class="md-section-divider"></div><h3 data-anchor-id="7g3o" id="2编程实践小游戏井字棋">2、编程实践：小游戏——井字棋</h3><div class="md-section-divider"></div><h4 data-anchor-id="xnfm" id="需求分析">需求分析:</h4><ul data-anchor-id="cg2l">
 <li>使用Unity 3D实现井字棋小游戏</li>
 <li>仅能使用IMGUI构建UI</li>
-</ul><div class="md-section-divider"></div><h3 data-anchor-id="8lxe" id="功能分析">功能分析：</h3><ul data-anchor-id="z000">
+</ul><div class="md-section-divider"></div><h4 data-anchor-id="8lxe" id="功能分析">功能分析：</h4><ul data-anchor-id="z000">
 <li>能模拟棋盘</li>
 <li>能自动切换角色(O棋和X棋交替）</li>
 <li>能判断胜利条件</li>
 <li>能给出游戏状态显示</li>
 <li>能重置游戏</li>
-</ul><div class="md-section-divider"></div><h3 data-anchor-id="78pq" id="功能实现">功能实现</h3><ul data-anchor-id="wa0n">
+</ul><div class="md-section-divider"></div><h4 data-anchor-id="78pq" id="功能实现">功能实现</h4><ul data-anchor-id="wa0n">
 <li>模拟棋盘 <br>
 用一个3x3的int二维数组来表示一个井字棋盘，其中O棋位置用1表示，X棋位置用-1表示，空白用0表示</li>
 <li>自动切换角色 <br>
@@ -168,7 +168,7 @@ foreach (Transform child in transform) {
 <img src="http://i2.bvimg.com/638111/931c6b3306524385s.png" alt="此处输入图片的描述"></li>
 <li>平局 <br>
 <img src="http://i2.bvimg.com/638111/0545a9d2d1b39feas.png" alt="此处输入图片的描述"></li>
-</ul><div class="md-section-divider"></div><h3 data-anchor-id="bprw" id="完整代码">完整代码</h3><ul style="list-style-type:none"><li><pre><code>using System.Collections;
+</ul><div class="md-section-divider"></div><h4 data-anchor-id="bprw" id="完整代码">完整代码</h4><ul style="list-style-type:none"><li><pre><code>using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -331,4 +331,4 @@ public class GameScript : MonoBehaviour {
         return 666;
     }
 }
-</code></pre></li></ul><div class="md-section-divider"></div><h3 data-anchor-id="nfsp" id="总结">总结</h3><p data-anchor-id="hi1r">总体而言，这次游戏还是比较简单的，虽然我没有足够多的时间和精力去完成更多的设计。如果可以的话，我的代码还可以进一步精简，另外还可以拓展棋盘尺寸还有加入AI与玩家对抗，但这样做的话就需要花时间去设计更复杂的算法了，怕了怕了。</p></div>
+</code></pre></li></ul><div class="md-section-divider"></div><h4 data-anchor-id="nfsp" id="总结">总结</h4><p data-anchor-id="hi1r">总体而言，这次游戏还是比较简单的，虽然我没有足够多的时间和精力去完成更多的设计。如果可以的话，我的代码还可以进一步精简，另外还可以拓展棋盘尺寸还有加入AI与玩家对抗，但这样做的话就需要花时间去设计更复杂的算法了，怕了怕了。</p></div>
